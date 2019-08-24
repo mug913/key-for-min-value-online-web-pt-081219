@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
 comp_k = nil
 name_hash.each do |k, v| 
   if ((comp_k) && (name_hash[k] < name_hash[comp_k]))
-    k = comp_k 
+    comp_k = k 
     
   else 
       binding.pry
