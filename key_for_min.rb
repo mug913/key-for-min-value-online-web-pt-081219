@@ -5,7 +5,6 @@ require 'pry'
 
 def key_for_min_value(name_hash)
 comp_k = nil
-k = ""
 name_hash.each do |k, v| 
   if ((comp_k) && (name_hash[k] < name_hash[comp_k]))
     k = comp_k 
