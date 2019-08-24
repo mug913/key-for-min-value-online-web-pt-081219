@@ -10,8 +10,9 @@ name_hash.each do |k, v|
     k = comp_k 
     
   else 
+      binding.pry
     comp_k = k 
-    binding.pry
+  
   end 
   
   end
