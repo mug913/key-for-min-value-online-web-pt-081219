@@ -8,7 +8,6 @@ comp_k = nil
 name_hash.each do |k, v| 
   if ((comp_k) && (name_hash[k] < name_hash[comp_k]))
     comp_k = k 
-      binding.pry  
   elsif !(comp_k)
     comp_k = k 
   end 
