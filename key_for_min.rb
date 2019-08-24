@@ -11,6 +11,8 @@ name_hash.each do |k, v|
   else 
     comp_k = k 
   end 
+  binding.pry
   end
+  
   return k 
 end
