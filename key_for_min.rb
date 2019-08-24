@@ -10,12 +10,12 @@ name_hash.each do |k, v|
     comp_k = k 
     
   else 
-      binding.pry
+ #   binding.pry
     comp_k = k 
   
   end 
   
   end
   
-  return k 
+  return comp_k 
 end
