@@ -9,13 +9,9 @@ name_hash.each do |k, v|
   if ((comp_k) && (name_hash[k] < name_hash[comp_k]))
     comp_k = k 
       binding.pry  
-  else 
-
+  elsif !(comp_k)
     comp_k = k 
-  
   end 
-  
   end
-  
   return comp_k 
 end
